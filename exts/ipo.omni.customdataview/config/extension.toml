@@ -3,14 +3,14 @@
 version = "1.0.0"
 
 # The title and description fields are primarily for displaying extension info in UI
-title = "Simple UI Extension Template"
-description="The simplest python extension example. Use it as a starting point for your extensions."
+title = "CustomData view"
+description="A simple extension to display the customdata attributes of a selected prim"
 
 # Path (relative to the root) or content of readme markdown file for UI.
 readme  = "docs/README.md"
 
 # URL of the extension source repository.
-repository = ""
+repository = "https://github.com/mtw75/kit_customdata_view"
 
 # One of categories for UI.
 category = "Example"
