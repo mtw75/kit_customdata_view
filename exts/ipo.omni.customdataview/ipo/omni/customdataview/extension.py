@@ -59,5 +59,5 @@ class MyExtension(omni.ext.IExt):
     def on_shutdown(self):        
         # cleanup 
         self._window = None
-        del self._stage_event_sub
+        self._stage_event_sub = None
         
