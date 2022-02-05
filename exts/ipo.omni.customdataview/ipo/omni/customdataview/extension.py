@@ -26,7 +26,7 @@ class MyExtension(omni.ext.IExt):
                 tree_view = ui.TreeView(
                     self._customdata_model,                    
                     root_visible=False,
-                    header_visible=True,
+                    header_visible=False,
                     columns_resizable=True,
                     column_widths=[ui.Fraction(0.4), ui.Fraction(0.6)],
                     style={"TreeView.Item": {"margin": 4}},
